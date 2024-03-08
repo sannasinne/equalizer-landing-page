@@ -174,7 +174,7 @@ header img {
 .bg-pattern-2 {
   position: absolute;
   top: -15px;
-  left: 336px
+  left: 336px;
 }
 
 .illustation-app {
@@ -241,4 +241,69 @@ ul {
   padding-left: 0;
   margin-left: auto;
   align-self: center;
+}
+
+/* Media queries */
+
+/* Tablet styles */
+
+@media (max-width: 1050px) {
+  body {
+    font-size: 1.125rem;
+    line-height: 1.56;
+    background-image: url("../assets/bg-main-tablet.png");
+  }
+
+  .bg-pattern-1 {
+    top: -40px;
+    right: -20px;
+    width: 266px;
+  }
+
+  h1 {
+    font-size: 4rem;
+    letter-spacing: -0.73px;
+  }
+
+  h2 {
+    font-size: 2rem;
+    line-height: 1.25;
+  }
+
+  button {
+    width: 296px;
+  }
+
+  .hero {
+    max-width: 520px;
+    margin-top: 95px;
+    margin-bottom: 250px;
+  }
+
+  .hero h1 {
+    margin-bottom: 28px;
+  }
+
+  .bg-pattern-2 {
+    top: -31px;
+    left: 229px;
+    width: 280px;
+  }
+  
+  .illustation-app {
+    left: 64px;
+    top: -150px;
+    width: 270px;
+  }
+
+  .content-card {
+    padding: 48px;
+    background-color: var(--clr-orange);
+    width: 399px;
+    height: 546px;
+    border-radius: 12px;
+    position: absolute;
+    top: 150px;
+    right: 58px;
+  }
 }
